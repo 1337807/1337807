@@ -48,7 +48,7 @@ a#twitter:hover {
 }
 a#github:active,
 a#twitter:active {
-  margin-top:-80px;
+  margin-top:-75px;
   height:160px;
 }
 a#github:active img,
