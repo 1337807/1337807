@@ -1,0 +1,57 @@
+.screen {
+  position:absolute;
+  left:-424242px;
+}
+body {background:url('../images/brick.gif') repeat top left;}
+#wrapper {
+  width:100%;
+  background:url('../images/repeaty_brick.png') repeat-x top left;
+}
+#content {
+  width:960px;
+  height:544px;
+  margin:0 auto;
+  background:url('../images/1337807.png') no-repeat top center;
+}
+ul#links {
+  display:block;
+  width:220px;
+  margin:0 auto;
+  padding-top:553px;
+}
+ul#links li {
+  float:left;
+  padding:0 15px;
+}
+ul#links li a img {
+  display:none;
+}
+a#github {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat bottom left;
+}
+a#twitter {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -80px bottom;
+}
+a#github:hover {
+  margin-top:0;
+}
+a#twitter:hover {
+  margin-top:0;
+}
+a#github:active,
+a#twitter:active {
+  margin-top:-80px;
+  height:160px;
+}
+a#github:active img,
+a#twitter:active img {
+  display:block;
+}
