@@ -1,8 +1,14 @@
+.clear {
+  clear:both;
+}
 .screen {
   position:absolute;
   left:-424242px;
 }
-body {background:url('../images/brick.gif') repeat top left;}
+body {
+  height:100%;
+  background:url('../images/brick.gif') repeat top left;
+}
 #wrapper {
   width:100%;
   background:url('../images/repeaty_brick.png') repeat-x top left;
