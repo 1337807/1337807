@@ -21,7 +21,7 @@ body {
 }
 ul#links {
   display:block;
-  width:220px;
+  width:330px;
   margin:0 auto;
   padding-top:553px;
 }
@@ -46,18 +46,30 @@ a#twitter {
   margin-top:5px;
   background:url('../images/da_bricks.png') no-repeat -80px bottom;
 }
+a#google {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -160px bottom;
+}
 a#github:hover {
   margin-top:0;
 }
 a#twitter:hover {
   margin-top:0;
 }
+a#google:hover {
+  margin-top:0;
+}
 a#github:active,
+a#google:active,
 a#twitter:active {
   margin-top:-75px;
   height:160px;
 }
 a#github:active img,
+a#google:active img,
 a#twitter:active img {
   display:block;
 }
