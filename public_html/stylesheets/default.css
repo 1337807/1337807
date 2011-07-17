@@ -24,7 +24,7 @@ body {
 }
 ul#links {
   display:block;
-  width:330px;
+  width:550px;
   margin:0 auto;
   padding-top:553px;
 }
@@ -56,6 +56,20 @@ a#google {
   margin-top:5px;
   background:url('../images/da_bricks.png') no-repeat -160px bottom;
 }
+a#blogger {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -240px bottom;
+}
+a#gmail {
+  display:block;
+  width:80px;
+  height:80px;
+  margin-top:5px;
+  background:url('../images/da_bricks.png') no-repeat -320px bottom;
+}
 a#github:hover {
   margin-top:0;
 }
@@ -65,14 +79,24 @@ a#twitter:hover {
 a#google:hover {
   margin-top:0;
 }
+a#blogger:hover {
+  margin-top:0;
+}
+a#gmail:hover {
+  margin-top:0;
+}
 a#github:active,
 a#google:active,
+a#gmail:active,
+a#blogger:active,
 a#twitter:active {
   margin-top:-75px;
   height:160px;
 }
 a#github:active img,
 a#google:active img,
+a#gmail:active img,
+a#blogger:active img,
 a#twitter:active img {
   display:block;
 }
