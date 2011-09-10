@@ -7,6 +7,7 @@
 }
 .hide {
   display:none;
+  border:0;
 }
 html {
   width:100%;
@@ -105,3 +106,29 @@ a#blogger:active img,
 a#twitter:active img {
   display:block;
 }
+
+/* Blog Styles */
+
+h2.blog {
+  color:white;
+  font-weight:bold;
+  font-size:26px;
+  font-family:'Cardo', serif;
+}
+
+div#blog_content {
+  margin:120px auto;
+  width:960px;
+  color:white;
+  background:black;
+}
+
+div#blog_content article {
+  font-size:18px;
+  font-family:“Helvetica Neue”, Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
