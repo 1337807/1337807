@@ -19,20 +19,6 @@
           <li><a id="gmail" href="mailto:jonanscheffler@gmail.com"><img src="images/coin.gif" alt="CHACHING! Magic!" /><span class="screen">1337807's Gmail</span></a></li>
         </ul>
       </div>
-    <div id="blog_content">
-      <h2 class="blog">Deploying simple websites with Git</h2>
-      <article>
-      <p>This fine website and the blog contained herein are entirely maintained and deployed with git. I edit a local repository on my laptop and commit to my linode, where a post-receive hook pulls down the changes to the live version of my site.</p>
-      <p>Obviously there are some better solutions for web applications to handle all the moving pieces (e.g. Capistrano) but for simple sites I find this workflow quite pleasant.</p>
-      <p>To get started you need to create a bare Git repository on your server. Further examples will pretend this repo lives in /var/git so that may be a good place for it. I will also assume that you have excellent taste and have therefore chosen to name your repository 1337807.git.</p>
-      <pre>git --bare init</pre>
-      <p>Now we're going to create the local repository for your site and add the remote repository as origin.</p>
-      <pre>
-git init
-git add remote origin your_user@your_server:/var/git/1337807.git</pre>
-      </article>
-    </div>
-    </div>
     <script type="text/javascript">
 
       var _gaq = _gaq || [];
