@@ -19,7 +19,7 @@ body {
 }
 #wrapper {
   width:100%;
-  padding-bottom:100px;
+  padding-bottom:1000px;
   background:url('../images/repeaty_brick.png') repeat-x top left;
 }
 #content {
